@@ -17,8 +17,8 @@ $Params = @{
     ExtensionType      = 'CustomScript' 
     TypeHandlerVersion = '2.1' 
     ProtectedSettings  = @{
-        fileUris = @('https://m.media-amazon.com/images/I/61CaZ+ZB-wL._UF894,1000_QL80_.jpg'); 
-        commandToExecute = 'exit 1'
+        fileUris = @('https://raw.githubusercontent.com/mate-academy/azure_samples/main/7-azure-vm-advanced/vm-extention-sample-script.sh'); 
+        commandToExecute = './vm-extention-sample-script.sh'
     }
     
 }    
